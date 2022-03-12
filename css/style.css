@@ -1,0 +1,295 @@
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+}
+
+.wrap > .header {
+    width: 100%;
+}
+
+.header > .nav {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+}
+
+.nav > .nav_list {
+    float: right;
+    line-height: 100px;
+}
+
+.nav_list > a {
+    margin: 0 20px;
+}
+
+.nav_list > a:hover {
+    color: #277ff6;
+}
+
+.header > .banner {
+    position: relative;
+    width: 100%;
+    height: 622px;
+}
+
+.banner > img {
+    display: none;
+    width: 100%;
+    height: 100%;
+
+}
+
+.banner > .show {
+    display: block;
+}
+
+.banner > .banner_btn {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+}
+
+.banner_btn > span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 1px solid orangered;
+}
+
+.banner_btn > span:hover {
+    background-color: white;
+}
+
+.wrap > .content {
+    width: 100%;
+}
+
+.content > .server {
+    width: 100%;
+    background-color: #fafafa;
+    padding-top: 1px;
+    padding-bottom: 60px;
+}
+
+.title {
+    width: 1000px;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.title > .title_text {
+    width: 165px;
+    background-color: #fafafa;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+
+.title_text > h3 {
+    font-size: 23px;
+    margin: 0;
+    color: black;
+}
+
+.title_text > p {
+}
+
+.title > .server_text {
+    width: 843px;
+    margin: 25px auto;
+}
+
+.server > .list {
+    width: 1054px;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.list > div {
+    width: 320px;
+    height: 508px;
+    background-color: white;
+    border: 1px solid #ccc;
+    float: left;
+    text-align: center;
+}
+
+.list > .center {
+    margin: 0 44px;
+}
+
+.list > div > img {
+    margin-top: 40px;
+}
+
+.list > div > h4 {
+    font-size: 23px;
+}
+
+.list > div > p {
+    width: 234px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #ccc;
+    height: 150px;
+    text-align: left;
+}
+
+.list > div > button {
+    display: inline-block;
+    width: 150px;
+    height: 38px;
+    border: 1px solid orange;
+    background-color: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    color: orange;
+}
+
+.list > div > button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.case > .title > .case_text {
+    background-color: white;
+}
+
+.content > .case {
+    width: 100%;
+}
+
+.case > .case_content {
+    position: relative;
+    width: 1235px;
+    height: 210px;
+    margin: 30px auto;
+}
+
+.case_content > button {
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    background-color: #ccc;
+    font-size: 25px;
+    border: none;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+.case_content > button:hover {
+    background-color: #277ff6;
+}
+
+.case_content > .btn_left {
+    left: 0;
+}
+
+.case_content > .btn_right {
+    right: 0;
+}
+
+.case_content>.show_case_list{
+    width: 1115px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.case_content >.show_case_list> .case_list {
+    width: 8000px;
+    /*margin: 0 auto;*/
+    /*overflow: hidden;*/
+    /*margin-left: -1106px;*/
+}
+
+.case_list > li{
+    position: relative;
+    width: 324px;
+    height: 210px;
+    float: left;
+    margin: 0 23px;
+}
+
+.case_list > li > img {
+    width: 100%;
+}
+
+.case_list > li:hover > .img_fdj {
+    display: block;
+}
+
+.case_list > li > .img_fdj {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70px;
+    display: none;
+}
+
+.case_list > li > p {
+    width: 100%;
+    height: 46px;
+    background-color: rgba(0, 0, 0, 0.53);
+    color: white;
+    font-size: 12px;
+    line-height: 46px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.wrap > .foot {
+    width: 100%;
+    height: 170px;
+    background-color: black;
+    color: #ccc;
+    text-align: center;
+    font-size: 12px;
+    /*padding-top: 20px;*/
+
+}
+
+.foot > .foot_nav {
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.foot > .foot_nav > a {
+    color: white;
+    font-size: 12px;
+}
+
+.foot_nav > a > span {
+    padding: 0 10px;
+}
+
+.banner_btn > .show {
+    background-color: orangered;
+}
+
